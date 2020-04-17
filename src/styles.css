@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900");
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  margin: 20px 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 0;
+  line-height: 1;
+  font-family: "Roboto", sans-serif;
+  color: #202020;
+  background-color: #fbfbfb;
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#Card {
+  margin: 20px !important;
+}
+
+img {
+  height: 350px !important;
+  width: 350px !important;
+}
